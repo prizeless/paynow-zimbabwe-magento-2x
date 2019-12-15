@@ -1,0 +1,26 @@
+{
+  "name": "prizeless/paynow-zimbabwe-magento-2x",
+  "type": "magento2-module",
+  "description": "Magento 2.2 PayNow Module",
+  "keywords": [
+    "magento paynow"
+  ],
+  "homepage": "http://prizeless.net",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Prizeless Technologies Development",
+      "email": "developer@prizeless.net",
+      "homepage": "http://prizeless.net"
+    }
+  ],
+  "require": {
+    "php": ">=7.1",
+    "paynow/php-sdk": "^1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Prizeless\\PayNow\\": ""
+    }
+  }
+}

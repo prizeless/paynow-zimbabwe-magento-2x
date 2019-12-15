@@ -1,0 +1,16 @@
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <payment>
+            <paynow>
+                <active>1</active>
+                <model>Prizeless\PayNow\Model\Payment</model>
+                <payment_action>authorize</payment_action>
+                <title>Paynow Zimbabwe Payment Gateway</title>
+                <api_key backend_model="Magento\Config\Model\Config\Backend\Encrypted"/>
+                <cctypes>AE,VI,MC,DI,JCB</cctypes>
+                <allowspecific>0</allowspecific>
+                <min_order_total>1</min_order_total>
+            </paynow>
+        </payment>
+    </default>
+</config>
